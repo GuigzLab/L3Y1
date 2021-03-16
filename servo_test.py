@@ -2,6 +2,8 @@ import time
 import board
 import pwmio
 from adafruit_motor import servo
+from adafruit_servokit import ServoKit
+
 
 # create a PWMOut object on Pin A2.
 # pwm = pwmio.PWMOut(board.A11, duty_cycle=2 ** 15, frequency=50)
