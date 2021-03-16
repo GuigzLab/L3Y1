@@ -11,12 +11,12 @@ kit = ServoKit(channels=16)
 # pwm = adafruit_pca9685.PCA9685()
 
 kit.servo[11].actuation_range = 90
-kit.servo[11].angle = 90
-# kit.continuous_servo[1].throttle = 0
-time.sleep(1)
-# kit.continuous_servo[1].throttle = 0
-kit.servo[11].angle = 90
-# kit.continuous_servo[1].throttle = 0
+kit.servo[11].angle = 0
+# # kit.continuous_servo[1].throttle = 0
+# time.sleep(1)
+# # kit.continuous_servo[1].throttle = 0
+# kit.servo[11].angle = 90
+# # kit.continuous_servo[1].throttle = 0
 
 # Pins Motor A RPI GPIO
 AIN1 = 17
