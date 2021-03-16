@@ -42,7 +42,7 @@ wheels = kit.servo[11]
 time.sleep(1)
 wheels.angle = 50
 time.sleep(1)
-wheels.angle = 130
+wheels.angle = 150
 
 
 
