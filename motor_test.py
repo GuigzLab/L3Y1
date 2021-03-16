@@ -1,12 +1,22 @@
 import time
 import RPi.GPIO as gpio
-# from adafruit_servokit import ServoKit
+from adafruit_servokit import ServoKit
 from adafruit_pca9685 import PCA9685
 import busio
 import board
+import adafruit_motor.servo
 
-# pca = ServoKit(channels=16)
+kit = ServoKit(channels=16)
+# servo = adafruit_motor.servo.Servo(servo_channel)
 # pwm = adafruit_pca9685.PCA9685()
+
+kit.servo[11].angle = 180
+kit.continuous_servo[1].throttle = 1
+time.sleep(1)
+kit.continuous_servo[1].throttle = -1
+time.sleep(1)
+kit.servo[11].angle = 0
+kit.continuous_servo[1].throttle = 0
 
 # Pins Motor A RPI GPIO
 AIN1 = 17
@@ -80,10 +90,10 @@ def reverse_right(tf):
     gpio.cleanup()
 
 
-forward(1)
-time.sleep(1)
-backward(1)
-time.sleep(1)
-reverse_left(1)
-time.sleep(1)
-reverse_right(1)
+# forward(1)
+# time.sleep(1)
+# backward(1)
+# time.sleep(1)
+# reverse_left(1)
+# time.sleep(1)
+# reverse_right(1)
