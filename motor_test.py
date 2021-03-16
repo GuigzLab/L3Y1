@@ -27,8 +27,8 @@ def init():
     pca.frequency = 60
 
     # Je ne sais pas à quoi ça sert et ça fonctionne sans pour le moment
-    # pwma.duty_cycle = 0xffff #high
-    # pwmb.duty_cycle = 0xffff #high
+    pwma.duty_cycle = 0xffff #high
+    pwmb.duty_cycle = 0xffff #high
 
     gpio.setwarnings(False)
     gpio.setmode(gpio.BCM)
