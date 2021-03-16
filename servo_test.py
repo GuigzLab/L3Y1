@@ -21,27 +21,28 @@ my_servo = kit.servo[13]
 
 
 # Camera Demo
-upper_camera = kit.servo[13]
-time.sleep(1)
-upper_camera.angle = 45
-time.sleep(1)
-upper_camera.angle = 180
-
-lower_camera = kit.servo[1]
-time.sleep(1)
-lower_camera.angle = 0
-time.sleep(1)
-lower_camera.angle = 180
-time.sleep(1)
-lower_camera.angle = 90
-
-time.sleep(1)
-upper_camera.angle = 180
+# upper_camera = kit.servo[13]
+# time.sleep(1)
+# upper_camera.angle = 45
+# time.sleep(1)
+# upper_camera.angle = 180
+#
+# lower_camera = kit.servo[1]
+# time.sleep(1)
+# lower_camera.angle = 0
+# time.sleep(1)
+# lower_camera.angle = 180
+# time.sleep(1)
+# lower_camera.angle = 90
+#
+# time.sleep(1)
+# upper_camera.angle = 180
 
 wheels = kit.servo[11]
 time.sleep(1)
-wheels.angle = 90
+wheels.angle = 50
 time.sleep(1)
+wheels.angle = 130
 
 
 
