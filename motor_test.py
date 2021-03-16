@@ -20,9 +20,9 @@ BIN1 = 27
 BIN2 = 22
 
 # Pin Motor A PCA
-pwma = pca.channels[4]
+pwma = pca.channels[6]
 # Pin Motor B PCA
-pwmb = pca.channels[6]
+pwmb = pca.channels[4]
 
 # pca.frequency = 60
 
