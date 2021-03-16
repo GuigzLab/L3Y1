@@ -23,11 +23,12 @@ upper_camera = kit.servo[13]
 time.sleep(1)
 upper_camera.angle = 0
 time.sleep(1)
-upper_camera.angle = 130
+upper_camera.angle = 90
 
 lower_camera = kit.servo[1]
 time.sleep(1)
 lower_camera.angle = 0
 time.sleep(1)
 lower_camera.angle = 180
+lower_camera.angle = 90
 
