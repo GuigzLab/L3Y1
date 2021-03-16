@@ -10,10 +10,10 @@ kit = ServoKit(channels=16)
 # servo = adafruit_motor.servo.Servo(servo_channel)
 # pwm = adafruit_pca9685.PCA9685()
 
-kit.servo[11].angle = 90
-kit.continuous_servo[1].throttle = 1
+kit.servo[11].angle = 20
+kit.continuous_servo[1].throttle = 0
 time.sleep(1)
-kit.continuous_servo[1].throttle = -1
+kit.continuous_servo[1].throttle = 0
 time.sleep(1)
 kit.servo[11].angle = 0
 kit.continuous_servo[1].throttle = 0
