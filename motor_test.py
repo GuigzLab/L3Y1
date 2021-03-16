@@ -15,7 +15,7 @@ kit.servo[11].angle = 90
 # kit.continuous_servo[1].throttle = 0
 time.sleep(1)
 # kit.continuous_servo[1].throttle = 0
-kit.servo[11].angle = 45
+kit.servo[11].angle = 90
 # kit.continuous_servo[1].throttle = 0
 
 # Pins Motor A RPI GPIO
