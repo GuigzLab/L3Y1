@@ -5,24 +5,24 @@ from adafruit_pca9685 import PCA9685
 import busio
 import board
 
-
 # pca = ServoKit(channels=16)
 # pwm = adafruit_pca9685.PCA9685()
 
-def init():
-    # Pins Motor A RPI GPIO
-    AIN1 = 17
-    AIN2 = 18
-    # Pins Motor A RPI GPIO
-    BIN1 = 27
-    BIN2 = 22
+# Pins Motor A RPI GPIO
+AIN1 = 17
+AIN2 = 18
+# Pins Motor A RPI GPIO
+BIN1 = 27
+BIN2 = 22
 
+
+def init():
     i2c = busio.I2C(board.SCL, board.SDA)
     pca = PCA9685(i2c)
     # Pin Motor A PCA
     pwma = pca.channels[4]
     # Pin Motor B PCA
-    pwmb = pca.channels[6]
+    pwmb = pca.channels[5]
     # Vitesse ?
     pca.frequency = 60
 
