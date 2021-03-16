@@ -19,7 +19,7 @@ BIN2 = 22
 
 pwma = pca.channels[4]
 pwmb = pca.channels[6]
-# pca.frequency = 60
+pca.frequency = 60
 
 # pwma.duty_cycle = 0xffff #high
 # pwmb.duty_cycle = 0xffff #high
