@@ -46,7 +46,4 @@ wheels.angle = 180
 time.sleep(1)
 wheels.angle = 90
 
-time.sleep(1)
-wheels.angle = 45
-
 
