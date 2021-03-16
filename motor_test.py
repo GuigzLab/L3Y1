@@ -21,13 +21,13 @@ pwma = pca.channels[4]
 pwmb = pca.channels[5]
 pca.frequency = 60
 
-pwma.duty_cycle = 0xffff #high
-pwmb.duty_cycle = 0xffff #high
+# pwma.duty_cycle = 0xffff #high
+# pwmb.duty_cycle = 0xffff #high
 
-#pca.frequency = 1600
-#motor0_channel.duty_cycle = 0xffff # hold high
-#pca.frequency = 60
-#led_channel = pca.channels[4]
+# pca.frequency = 1600
+# motor0_channel.duty_cycle = 0xffff # hold high
+# pca.frequency = 60
+# led_channel = pca.channels[4]
 
 #led_channel.duty_cycle = 0
 
