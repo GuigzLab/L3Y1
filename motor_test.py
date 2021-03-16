@@ -24,7 +24,7 @@ pwma = pca.channels[6]
 # Pin Motor B PCA
 pwmb = pca.channels[4]
 
-# pca.frequency = 60
+pca.frequency = 60
 
 pwma.duty_cycle = 0xffff #high
 pwmb.duty_cycle = 0xffff #high
