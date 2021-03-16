@@ -16,7 +16,7 @@ AIN1 = 17
 AIN2 = 18
 
 # Pins Motor A RPI GPIO
-BIN1 = 21
+BIN1 = 27
 BIN2 = 22
 
 # Pin Motor A PCA
