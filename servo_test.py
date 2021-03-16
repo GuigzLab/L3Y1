@@ -20,6 +20,14 @@ my_servo = kit.servo[13]
 #         time.sleep(0.05)
 
 upper_camera = kit.servo[13]
+time.sleep(1)
 upper_camera.angle = 0
 time.sleep(1)
-upper_camera.angle = 180
+upper_camera.angle = 130
+
+lower_camera = kit.servo[1]
+time.sleep(1)
+lower_camera.angle = 0
+time.sleep(1)
+lower_camera.angle = 180
+
