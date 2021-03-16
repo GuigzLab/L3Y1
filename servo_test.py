@@ -19,6 +19,8 @@ my_servo = kit.servo[13]
 #         my_servo.angle = angle
 #         time.sleep(0.05)
 
+
+# Camera Demo
 upper_camera = kit.servo[13]
 time.sleep(1)
 upper_camera.angle = 45
@@ -32,4 +34,14 @@ time.sleep(1)
 lower_camera.angle = 180
 time.sleep(1)
 lower_camera.angle = 90
+
+time.sleep(1)
+upper_camera.angle = 180
+
+wheels = kit.servo[11]
+time.sleep(1)
+wheels.angle = 90
+time.sleep(1)
+
+
 
