@@ -4,7 +4,9 @@ from adafruit_servokit import ServoKit
 from adafruit_pca9685 import PCA9685
 import busio
 import board
-import adafruit_motor.servo
+
+# pca = ServoKit(channels=16)
+# pwm = adafruit_pca9685.PCA9685()
 
 # Pins Motor A RPI GPIO
 AIN1 = 17
