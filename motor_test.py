@@ -1,6 +1,6 @@
 import time
 import RPi.GPIO as gpio
-from adafruit_servokit import ServoKit
+# from adafruit_servokit import ServoKit
 from adafruit_pca9685 import PCA9685
 import busio
 import board
