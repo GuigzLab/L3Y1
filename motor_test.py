@@ -11,25 +11,23 @@ import board
 i2c = busio.I2C(board.SCL, board.SDA)
 pca = PCA9685(i2c)
 
+# Pins Motor A RPI GPIO
 AIN1 = 17
 AIN2 = 18
 
+# Pins Motor A RPI GPIO
 BIN1 = 21
 BIN2 = 22
 
+# Pin Motor A PCA
 pwma = pca.channels[4]
+# Pin Motor B PCA
 pwmb = pca.channels[6]
-pca.frequency = 60
+
+# pca.frequency = 60
 
 # pwma.duty_cycle = 0xffff #high
-# pwmb.duty_cycle = 0xffff #high
-
-# pca.frequency = 1600
-# motor0_channel.duty_cycle = 0xffff # hold high
-# pca.frequency = 60
-# led_channel = pca.channels[4]
-
-#led_channel.duty_cycle = 0
+pwmb.duty_cycle = 0xffff #high
 
 gpio.setwarnings(False)
 gpio.setmode(gpio.BCM)
