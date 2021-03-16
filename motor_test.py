@@ -60,6 +60,18 @@ def backward(tf):
     gpio.cleanup()
 
 
+def reverse(tf):
+    init()
+    gpio.output(AIN1, gpio.HIGH)
+    gpio.output(AIN2, gpio.LOW)
+    gpio.output(BIN1, gpio.LOW)
+    gpio.output(BIN2, gpio.HIGH)
+    time.sleep(tf)
+    gpio.cleanup()
+
+
 forward(1)
 time.sleep(1)
 backward(1)
+time.sleep(1)
+reverse(1)
