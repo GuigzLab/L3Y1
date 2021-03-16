@@ -26,7 +26,7 @@ pwmb = pca.channels[4]
 
 # pca.frequency = 60
 
-# pwma.duty_cycle = 0xffff #high
+pwma.duty_cycle = 0xffff #high
 pwmb.duty_cycle = 0xffff #high
 
 gpio.setwarnings(False)
